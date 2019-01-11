@@ -1,0 +1,33 @@
+<header>
+  <h1>Dialler</h1>
+</header>
+
+<div class="Dialpad">
+ 
+<!-- the input -->
+<input type="text" name="num" id="num">
+
+<!-- the buttons -->
+<div class="dialler-buttons">
+  
+
+  <button class="dialler-button" (click)="enterVal(7)">7</button>
+  <button class="dialler-button" (click)="enterVal(8)">8</button>
+  <button class="dialler-button" (click)="enterVal(9)">9</button>
+  
+
+  <button class="dialler-button" (click)="enterVal(4)">4</button>
+  <button class="dialler-button" (click)="enterVal(5)">5</button>
+  <button class="dialler-button" (click)="enterVal(6)">6</button>
+  
+
+  <button class="dialler-button" (click)="enterVal(1)">1</button>
+  <button class="dialler-button" (click)="enterVal(2)">2</button>
+  <button class="dialler-button" (click)="enterVal(3)">3</button>
+ 
+  <button class="dialler-button is-zero" (click)="enterVal(0)">0</button>
+  <button class="dialler-button del" (click)="delete()">DEL</button>
+  <button class="dialler-button sub" (click)="ok()">OK</button>
+</div>
+
+</div>
